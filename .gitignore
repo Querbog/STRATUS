@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# Spark
+/tmp/
+spark-*
+_spark_metadata/
+
+# Checkpoints
+data/checkpoints/
+
+# Airflow
+airflow/logs/
+airflow/airflow.db
+airflow/airflow-webserver.pid
+
+# OS
+.DS_Store
+
